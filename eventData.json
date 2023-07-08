@@ -1,0 +1,21 @@
+{
+    "EEE": {
+      "description": "cool event",
+      "image": "image1",
+      "club": "ESS",
+      "date": "07/28/2023"
+    },
+    "ESS Teaching Award Ceremony": {
+        "description": "cool event",
+        "image": "image1",
+        "club": "ESS",
+        "date": "06/30/2023"
+    },
+    "VikeCTF": {
+        "description": "cool event",
+        "image": "image1",
+        "club": "VikeSec",
+        "date": "07/28/2023"
+    }
+}
+  

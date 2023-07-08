@@ -2,7 +2,7 @@ import React from "react";
 
 function EventBlock(){
 
-    return  <div class= "EventBlock" >Test Method Here</div>
+    return  <div className="EventBlock" >Hello World</div>
 }
 
 export default EventBlock;
