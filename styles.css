@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+}
 
 .Events{
     display: flex;
@@ -11,6 +16,11 @@
 Event Block Style
 
 */
+.Upcoming{
+    font-size: x-large;
+    text-align: center;
+    font-family: Impact;
+}
 
 .EventBlock{
     padding: 10px 50px;
@@ -85,10 +95,6 @@ Club Page Style
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family:'Times New Roman', Times, serif;
 }
 
 a {
