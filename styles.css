@@ -1,33 +1,51 @@
-
-
 .EventBlock{
+    padding: 10px 50px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
+    background-color:rgb(255,153,0);
+    border-radius: 10px;
 }
 
-.EventContents{
-    padding: 0px 100px;
-    margin: 100px;
+.EventDetails{
     display: flex;
     flex-direction: row;
 }
 
-.EventTitle{
-    justify-content: center;
-    align-content: center;
-
+.image, .description {
+    flex: 1;
 }
 
-.EventBlock > img{
-    flex:1;
+ .image img { 
     width: 100%;
+    height: auto;
+    flex: 1;
 }
 
-.EventBlock > p {
-    flex: auto;
+.description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
 }
 
-.EventBlock > h3 {
+.description h3{
+    font-size: larger;
+    justify-self: flex-start;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    background-color: #ff5722;
+}
+
+.join .icon{
     align-self: center;
-    flex: auto;
+    padding: 0px 10px;
+}
+
+.join .counter{
+    align-self: center;
+    padding: 0px 10px;
 }
