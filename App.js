@@ -28,6 +28,34 @@ export default function App() {
         "image": "1.png",
         "club": "VikeSec",
         "date": "07/28/2023"
+    },
+    {
+        "title": "Polar Plunge",
+        "description": " really cool event",
+        "image": "image1",
+        "club": "ESS",
+        "date": "01/10/2023"
+    },
+    {
+        "title": "Launch Day",
+        "description": "Orcaset sent to space from the ISS",
+        "image": "image1",
+        "club": "UVic Satellite Design",
+        "date": "06/04/2023"
+    },
+    {
+        "title": "Earth Day",
+        "description": "Reduce you overall energy consumption on Earth Day",
+        "image": "image1",
+        "club": "URec",
+        "date": "03/12/2023"
+    },
+    {
+        "title": "Snake Battle",
+        "description": "Join a bunch of people who comepete to make the most intelligent snake and then battle each other",
+        "image": "image1",
+        "club": "UVic AI Club",
+        "date": "07/28/2023"
     }
   ]
 
