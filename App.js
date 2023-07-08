@@ -8,17 +8,42 @@ import NavBar from './components/NavBar.jsx';
 
 
 export default function App() {
-  const [eventData, setEventData] = useState([]);
+  const eventDataArr = [
+    {
+      "title": "ESS",
+      "description": "cool event",
+      "image": "image1",
+      "club": "ESS",
+      "date": "07/28/2023"
+    },
+    {
+        "title": "ESS Teaching Award Ceremony",
+        "description": "cool event",
+        "image": "image1",
+        "club": "ESS",
+        "date": "06/30/2023"
+    },
+    {
+        "title": "VikeCTF",
+        "description": "cool event",
+        "image": "image1",
+        "club": "VikeSec",
+        "date": "07/28/2023"
+    }
+  ]
 
-  setEventData(getEventData);
+  console.log(eventDataArr[1]["title"])
 
+  const testString = "<NavBar/>"
   return  (
     <>
       <NavBar/>
       <TitleItem/>
-      <EventCard/>
+      {eventDataArr.map(item => {
+                return <EventCard title={item["title"]} description={item["description"]}/>
+            })}
     </>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -29,30 +54,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-const getEventData = () => {
-
-  const eventDataObj = {
-    "EEE": {
-      "description": "cool event",
-      "image": "image1",
-      "club": "ESS",
-      "date": "07/28/2023"
-    },
-    "ESS Teaching Award Ceremony": {
-        "description": "cool event",
-        "image": "image1",
-        "club": "ESS",
-        "date": "06/30/2023"
-    },
-    "VikeCTF": {
-        "description": "cool event",
-        "image": "image1",
-        "club": "VikeSec",
-        "date": "07/28/2023"
-    }
-}
-
-return eventDataObj;
-
-}
