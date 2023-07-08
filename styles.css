@@ -6,22 +6,18 @@
     background-color:rgb(255,153,0);
     border-radius: 10px;
 }
-
 .EventDetails{
     display: flex;
     flex-direction: row;
 }
-
 .image, .description {
     flex: 1;
 }
-
  .image img { 
     width: 100%;
     height: auto;
     flex: 1;
 }
-
 .description {
     text-align: center;
     display: flex;
@@ -29,7 +25,6 @@
     justify-content: center;
     padding: 0px 10px;
 }
-
 .description h3{
     font-size: larger;
     justify-self: flex-start;
@@ -39,13 +34,24 @@
     justify-content: center;
     background-color: #ff5722;
 }
-
 .join .icon{
     align-self: center;
     padding: 0px 10px;
 }
-
 .join .counter{
     align-self: center;
     padding: 0px 10px;
+}
+
+/*
+
+Club Page Style
+
+*/
+
+.clubDropDown{
+    background-color:rgb(255,153,0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
 }
