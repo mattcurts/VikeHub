@@ -1,0 +1,33 @@
+
+
+.EventBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.EventContents{
+    padding: 0px 100px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.EventTitle{
+    justify-content: center;
+    align-content: center;
+
+}
+
+.EventBlock > img{
+    flex:1;
+    width: 100%;
+}
+
+.EventBlock > p {
+    flex: auto;
+}
+
+.EventBlock > h3 {
+    align-self: center;
+    flex: auto;
+}
